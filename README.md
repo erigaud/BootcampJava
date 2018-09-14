@@ -13,7 +13,14 @@
   
 ## Le déroulement du jeu
   ### Les tableaux de jeu 
-  J'utilise deux listes, pour séparer les joueurs *pouvant* attaquer, aux monstres qui ne peuvent que subir. Ainsi, je peux choisir mon attaquant dans le premier tableaux, et mon défenseur dans l'un des deux tableaux. Je réitère mon choix tant que je tire le même joueur pour attaquer et défendre. 
+  Il y a 20 joueurs au total, dont 8 qui ne peuvent pas attaquer.
+  J'utilise deux listes, pour séparer les joueurs *pouvant* attaquer, aux monstres qui ne peuvent que subir. 
+``` java 
+  Personnage tableaupersonnages[] = new Personnage[12];
+  NainJardin tableaunains[] = new NainJardin[8];
+```
+        
+   Ainsi, je peux choisir mon attaquant dans le premier tableaux, et mon défenseur dans l'un des deux tableaux. Je réitère mon choix tant que je tire le même joueur pour attaquer et défendre. 
   > **Remarque** J'aurais pu choisir de tirer exclusivement des personnages vivant, mais sachant que mon code empèche les personnages d'attaquer, je n'ai pas voulu en rajouter. En revanche, un personnage peut attaquer un mort, ce qui peut parfois permettre aux Sorciers de réssusciter (Ce sont des sorciers après tout...)
   
   ### Les rounds
