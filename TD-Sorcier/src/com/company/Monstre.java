@@ -33,8 +33,6 @@ public class Monstre extends Personnage{
         else {
             return 0;
         }
-
         }
-
     }
 
