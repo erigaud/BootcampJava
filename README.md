@@ -1,4 +1,4 @@
-# TD SORCIER
+# TD SORCIERS
 --------
 
 ## Les classes
