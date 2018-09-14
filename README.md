@@ -40,3 +40,6 @@
   > **Remarque** Le signe du renvoit est important ! S'il est négatif, il s'agit bien d'un retour de dégats que l'attaquant va subir, s'il est positif, il s'agit d'un montant qui *soigne* l'attaquant. 
   
   
+  ## Lien du TD 
+  [TD 1 Sorciers](https://drive.google.com/file/d/19DYjv-I5QKMbT9QNpr5jO4oUujupvENE/view)
+  [TD 2 Interfaces](https://drive.google.com/file/d/1XLclk9rF1S741GMempHZvftVMW3_tfVN/view)
