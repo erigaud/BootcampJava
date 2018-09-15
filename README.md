@@ -1,5 +1,6 @@
 # TD SORCIERS
 --------
+[Repertoire du TD](./TD-SORCIER)
 
 ## Les classes
 
