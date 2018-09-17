@@ -4,7 +4,7 @@
 
 ## Les classes
 
-  Tout le monde hérite de la classe [Victime](./TD-Sorcier/Company/Victime.java) (j'aurais pu utiliser une interface, mais j'avais écrit le code avant d'être familier avec ces dernières.) 
+  Tout le monde hérite de la classe [Victime](./TD-Sorcier/src/com/Company/Victime.java) (j'aurais pu utiliser une interface, mais j'avais écrit le code avant d'être familier avec ces dernières.) 
   Les **Monstres** et les **Sorciers** héritent de la classe **Personnage**, et les **Magiciens** héritent de **Sorcier**.
   De même, les **Gnomes** héritent des **Nains** qui héritent de Victime. 
   
