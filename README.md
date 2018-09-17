@@ -6,11 +6,11 @@
 
   Tout le monde hérite de la classe [Victime](./TD-Sorcier/src/com/company/Victime.java) (j'aurais pu utiliser une interface, mais j'avais écrit le code avant d'être familier avec ces dernières.) 
   Les [Monstres](./TD-Sorcier/src/com/company/Monstre.java) et les [Sorciers](./TD-Sorcier/src/com/company/Sorcier.java) héritent de la classe [Personnage](./TD-Sorcier/src/com/company/Personnage.java), et les [Magiciens](./TD-Sorcier/src/com/company/Magicien.java) héritent de [Sorcier](./TD-Sorcier/src/com/company/Sorcier.java).
-  De même, les [Gnomes](./TD-Sorcier/src/com/company/Gnome.java) héritent des [Nains](./TD-Sorcier/src/com/company/NainJardin.java) qui héritent de Victime. 
+  De même, les [Gnomes](./TD-Sorcier/src/com/company/GnomeJardin.java) héritent des [Nains](./TD-Sorcier/src/com/company/NainJardin.java) qui héritent de Victime. 
   
 ## Les interfaces 
 
-  Je n'ai utilisé qu'une interface : **SuperPouvoir**, utilisée par les Magiciens et les Gnomes. 
+  Je n'ai utilisé qu'une interface : [SuperPouvoir](./TD-Sorcier/src/com/company/SuperPouvoir.java), utilisée par les Magiciens et les Gnomes. 
   
 ## Le déroulement du jeu
   ### Les tableaux de jeu 
